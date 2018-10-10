@@ -30,4 +30,18 @@ header-includes:
 \end{enumerate}
 \end{multicols}
 
-**Part 2.**
+**Part 2.** Use the symbol $\subseteq$ to give a correct statement involving the two sets. Write your answer below each item.
+
+\begin{multicols}{5}
+\begin{enumerate}
+\item $N$ and $Q$
+\item $R$ and $Q$
+\item $J$ and $N$
+\item $H$ and $R$
+\item ${0}$ and $J$
+\end{enumerate}
+\end{multicols}
+
+\vspace{2mm}
+
+**Part 3.**
