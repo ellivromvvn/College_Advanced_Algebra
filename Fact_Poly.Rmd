@@ -1,0 +1,158 @@
+---
+title: "Factoring Polynomials"
+output: pdf_document
+---
+# Introduction
+
+A polynomial with integer coefficients is said to be **prime** if it has no monomial or polynomial factors with integer coefficients other than itself and one. Furthermore, a polynomial with integer coefficients is said to be in **completely factored form** when each of its polynomial factors is prime.
+
+# Removing a Common Monomial Factor
+
+$$ax+ay+az=a(x+y+z)$$
+
+- Note that the factor $(x+y+z)$ is obtained by dividing the given polynomial by the common monomial factor $a$.
+
+# Difference of Two Squares
+
+$$x^2-y^2=(x+y)(x-y)$$
+
+# Factoring Trinomials
+
+From special product 1 we have the formula
+
+$$x^2+(a+b)x+ab=(x+a)(x+b)$$
+
+From special product 2 we have the formula
+
+$$x^2+2xy+y^2=(x+y)^2$$
+
+- Note that the trinomial is called a **perfect-square trinomial**.
+
+From special product 4 we have the formula
+
+$$acx^2+(ad+bc)xy+bdy^2=(ax+by)(cx+dy)$$
+
+# Sum and Difference of Two Cubes
+
+$$x^3+y^3=(x+y)(x^2-xy+y^2)$$
+
+$$x^3-y^3=(x-y)(x^2+xy+y^2)$$
+
+# Factoring by Grouping
+
+## Illustration 1
+
+To factor the polynomial
+
+$$3x^2+7x-6xy-14y$$
+
+we can group the first and third terms and second and fourth terms to get
+
+\begin{align*}
+  (3x^2-6xy)+(7x-14y) &= 3x(x-2y)+7(x-2y)\\
+   &= (x-2y)(3x+7)
+\end{align*}
+
+## Illustration 2
+
+If we have the polynomial $x^2+2xy+y^2-1$, we can group the first three terms to form a perfect-square trinomial, which we factor as the square of a binomial. Then we have the difference of two squares. The computation follows:
+
+\begin{align*}
+  x^2+2xy+y^2-1 &= (x^2+2xy+y^2)-1\\
+   &= (x+y)^2-1^2\\
+   &= [(x+y)+1][(x+y)-1]\\
+   &= (x+y+1)(x+y-1)
+\end{align*}
+
+If we have the polynomial $x^2-y^2+x-y$, we can group the first two terms to form the difference of two squares, which we factor; then we have a common binomial factor of $x-y$ and we get
+
+\begin{align*}
+  x^2-y^2+x-y &= (x^2-y^2)+(x-y)\\
+   &= (x+y)(x-y)+(x-y)\\
+   &= (x-y)[(x+y)+1]\\
+   &= (x-y)(x+y+1)
+\end{align*}
+
+## Illustration 3
+
+In the trinomial $2st^4-8st^2-90s$ there is a common monomial factor of $2s$. Hence we can write the trinomial as $2s(t^4-4t^2-45)$. The new trinomial can be factored and written as the product of two binomials, one of which is the difference of two squares. The computation follows:
+
+\begin{align*}
+  2st^4-8st^2-90s &= 2s(t^4-4t^2-45)\\
+   &= 2s(t^2+5)(t^2-9)\\
+   &= 2s(t^2+5)(t+3)(t-3)
+\end{align*}
+
+# Practice Items
+
+Factor the polynomials. In items 3, 6, 15 and 34, $n$ is a positive integer.
+
+**1.** $8x^2+4x$
+
+**2.** $a^5-3a^4+a^3$
+
+**3.** $a^{2n+1}+a^{n+2}+a^{n+1}$
+
+**4.** $16-y^2$
+
+**5.** $36x^2-81y^2$
+
+**6.** $b^{2n}-c^{8n}$
+
+**7.** $x^2-9x+18$
+
+**8.** $a^2+4ab-21b^2$
+
+**9.** $x^2+5x-24$
+
+**10.** $y^2-10y+25$
+
+**11.** $9x^2-30xy+25y^2$
+
+**12.** $25y^6-10y^3+1$
+
+**13.** $10y^2-11y-6$
+
+**14.** $32a^2+12ab-9b^2$
+
+**15.** $x^{6n}-14x^{3n}+49$
+
+**16.** $27-x^3$
+
+**17.** $t^3+8$
+
+**18.** $a^6b^3-27c^3$
+
+**19.** $x^3+3x^2+x+3$
+
+**20.** $10a^3-4a^2+25a-10$
+
+**21.** $3xy-yz+3xw-zw$
+
+**22.** $6st^2-9s^2t-2t^3+27s^3$
+
+**23.** $4-(3a+2b)^2$
+
+**24.** $(2x+y)^2-(5z-3w)^2$
+
+**25.** $r^2+10rs+25s^2-9$
+
+**26.** $x^2-8xy+16y^2-36a^2+12ab-b^2$
+
+**27.** $9a^2-16b^2-3a-4b$
+
+**28.** $(x+2y)^3-1$
+
+**29.** $81c^4-d^4$
+
+**30.** $a^6+2a^3+1$
+
+**31.** $t^6+t^4+t^2+1$
+
+**32.** $64x^6-y^6$
+
+**33.** $abx+acs-bcy-aby+bcx-acy$
+
+**34.** $x^{8n}-16y^{4n}$
+
+
