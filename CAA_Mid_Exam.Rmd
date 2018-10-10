@@ -17,3 +17,17 @@ header-includes:
 
 \vspace{5mm}
 
+**Part 1.** Insert $\in$ or $\notin$ in the blank to make the statement correct.
+
+\begin{multicols}{5}
+\begin{enumerate}
+\setlength\fillinlinelength{.30in}
+\item 15 \fillin $N$
+\item 1.4142 \fillin $H$
+\item 0 \fillin $Q$
+\item 2007 \fillin $J$
+\item -5 \fillin $H$
+\end{enumerate}
+\end{multicols}
+
+**Part 2.**
