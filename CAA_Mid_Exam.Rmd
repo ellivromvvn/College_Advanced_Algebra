@@ -1,0 +1,19 @@
+---
+output: pdf_document
+documentclass: exam
+header-includes: 
+  - \usepackage{multicol}
+---
+\pagestyle{headandfoot}
+\firstpageheader{College and Advanced Algebra\\O. D. Hombrebueno}{Nueva Vizcaya State University\\College of Teacher Education}{Midterm Exam\\October 12, 2018}
+\runningheader{}{}{}
+\firstpagefooter{}{}{}
+\runningfooter{College and Advanced Algebra}{Midterm Exam}{Page \thepage\ of \numpages}
+\runningfootrule
+
+\makebox[4in]{Name:\enspace\hrulefill}
+
+\makebox[3in]{Course and Year:\enspace\hrulefill}
+
+\vspace{5mm}
+
